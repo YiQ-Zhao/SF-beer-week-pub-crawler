@@ -1,21 +1,11 @@
-MVP --
+# Pub Crawler App `:beers:``:beers:``:beers:`
+Contributors: [Ryan Campa](https://github.com/rjcampa), [Kunal Kotian](https://github.com/kunal-kotian), [Thy Khue (Maise) Ly](https://github.com/maisely), [Nishan Madawanarachchi](https://github.com/nishancm), [Sri Santhosh Hari](https://github.com/santhoshhari), [Yiqiang Zhao](https://github.com/YiQ-Zhao) 
+## Overview
+There's never been a better time to have a beer in San Francisco. But are you bothering by long time drives? Or anxious with choice overload? This app we developed is aimed to provide users the route and schedule that minimizes the time on the road and maximizes the time spent enjoying beer. 
 
-* All breweries with four fields (name, start, end, address, start time end time, DOW, Food Y/N and #)
-* Deploy and pretty front end
+Given start time and duration, how can one take the optimal route and drink in as many pubs as one wants?  We transformed this problem to [**Capacitated Vehicle Routing Problem with Time Windows**](https://developers.google.com/optimization/routing/cvrptw).  By leveraging the data of pubs' business hours and locations, we want people who use this app all can have efficient crawls.   
 
-
-* Instance information: ec2-34-229-40-206.compute-1.amazonaws.com
-
-* Installation instructions:
-0. Spun up instance (t2) in VA region with ubuntu unix
-1. Login to box and created new user "beerweek", generated key.
-2. Install R: sudo apt-get update ;  sudo apt-get install r-base ;sudo apt-get install r-base-dev
-3. Open port 3838 in the launch-wizard-2 security group.
-4. Install shiny: sudo su - -c "R -e \"install.packages('shiny', repos = 'http://cran.rstudio.com/')\""
-5. Install shiny server: wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.4.4.807-amd64.deb
-6. sudo dpkg -i shiny-server-1.4.4.807-amd64.deb
-7. install rmarkdown: sudo su - -c "R -e \"install.packages('rmarkdown', repos = 'http://cran.rstudio.com/')\""
-8. sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
-9.  install tidyvers: sudo su - -c "R -e \"install.packages('tidyverse', repos = 'http://cran.rstudio.com/')\""
-10.  install magrittr: sudo su - -c "R -e \"install.packages('magrittr', repos = 'http://cran.rstudio.com/')\""
-11. horrible solution -- run as user ubuntu--  sudo chmod -R 777 shiny-server/ so that 
+* [App Link](http://ec2-34-229-40-206.compute-1.amazonaws.com:3838/sample-apps/beer-week-5/)
+* [Presentation Slides](https://onedrive.live.com/view.aspx?resid=9C31AFB159FECE55!191&ithint=file%2cpptx&app=PowerPoint&authkey=!AEmr3MkGOYqLT8o)
+## Demo
+![demogif](/gif/demo.gif)
