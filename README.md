@@ -1,4 +1,4 @@
-# Pub Crawler App `:beers:``:beers:``:beers:`
+# Pub Crawler App :beers::beers::beers:
 Contributors: [Ryan Campa](https://github.com/rjcampa), [Kunal Kotian](https://github.com/kunal-kotian), [Thy Khue (Maise) Ly](https://github.com/maisely), [Nishan Madawanarachchi](https://github.com/nishancm), [Sri Santhosh Hari](https://github.com/santhoshhari), [Yiqiang Zhao](https://github.com/YiQ-Zhao) 
 ## Overview
 There's never been a better time to have a beer in San Francisco. But are you bothering by long time drives? Or anxious with choice overload? This app we developed is aimed to provide users the route and schedule that minimizes the time on the road and maximizes the time spent enjoying beer. 
